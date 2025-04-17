@@ -1,6 +1,6 @@
 # AI API Call w/React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules with an API call to OpenAI. Do not forget to install the noe modules btw.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules with an API call to OpenAI. Do not forget to install the node modules btw.
 
 Create directory:
 Then cd in termal and put in these commands:
