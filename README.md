@@ -29,9 +29,8 @@ Also fully located here:
 https://medicalaitest.web.app
 
 Accompanying video:
-  <a href="https://www.youtube.com/watch?v=Tya_Fxd_YMA">
-    <img src="https://img.youtube.com/vi/Tya_Fxd_YMA/maxresdefault.jpg" alt="Watch the video" width="600">
-  </a>
+[![Video Overview](https://img.youtube.com/vi/Tya_Fxd_YMA/maxresdefault.jpg)](https://www.youtube.com/watch?v=Tya_Fxd_YMA)
+
 
 
 <img width="1360" alt="Screenshot 2025-04-17 at 3 11 47 AM" src="https://github.com/user-attachments/assets/7b38777e-814e-42e5-a0db-2074288bea12" />
