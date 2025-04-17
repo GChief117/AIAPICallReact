@@ -1,0 +1,96 @@
+/* src/App.css */
+
+/* reset any default margins/padding */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* center the chat container vertically & horizontally */
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  background-color: antiquewhite; /* optional dark page bg */
+}
+
+/* the “window” around your messages */
+.chat-window {
+  width: 100%;
+  max-width: 700px;
+  background-color: ghostwhite;
+  border-radius: 8px;
+  padding: 1rem;
+  max-height: 85vh;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+/* turn the scroll area into a column flexbox */
+.chat-window {
+  display: flex;          /* ← NEW */
+  flex-direction: column; /* ← NEW */
+}
+
+/* common bubble styling (you already have this) */
+.message {
+  display: inline-block;
+  padding: 0.7rem 1rem;
+  margin: 0.5rem 10px;      /* a bit more space top & bottom */
+  padding-right: 10px;
+  border-radius: 16px;
+  line-height: 1.4;
+  word-break: break-word;
+  max-width: 80%;
+}
+
+/* user = blue bubble on the right */
+.message.user {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  align-self: flex-end;  /* push to right */
+  margin-left: auto;     /* gutter on left */
+}
+
+/* assistant = grey bubble on the left */
+.message.assistant {
+  background-color: lightslategray;
+  color: #eee;
+  border: none;
+  align-self: flex-start; /* push to left */
+  margin-right: auto;     /* gutter on right */
+}
+
+/* the input bar below */
+.input-form {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  padding: 0.5rem;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.3);
+  background-color: #1e1e1e;
+  border-radius: 0 0 8px 8px;
+}
+
+.input-form input {
+  flex: 1;
+  padding: 0.6rem;
+  border: 1px solid #444;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+  background-color: #121212;
+  color: #fff;
+}
+
+.input-form button {
+  padding: 0.6rem 1rem;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
