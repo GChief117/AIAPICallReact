@@ -9,6 +9,11 @@ then
 npm install
 npm react
 
+Also given the fact you are working in VITE as well use this to place your API call with OpenAI in this example:
+VITE_OPENAI_API_KEY=
+
+and create the '.env' file and put in directory
+
 
 Currently, two official plugins are available:
 
