@@ -1,6 +1,14 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules with an API call to OpenAi.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules with an API call to OpenAI. Do not forget to install the noe modules btw.
+
+Create directory:
+Then cd in termal and put in these commands:
+npm init vite@latest . -- --template react
+then
+npm install
+npm react
+
 
 Currently, two official plugins are available:
 
